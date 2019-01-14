@@ -1,0 +1,20 @@
+{
+  "name": "monaco-webpack-typescript-test",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "rm -rf dist/*.js && webpack && http-server dist"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^5.2.1",
+    "typescript": "3.1.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.1.0",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.15.6"
+  }
+}
